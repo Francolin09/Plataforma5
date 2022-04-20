@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenido a Instapet</h1>
+       <h3> La nueva red social para tus mascotas</h3>
+    </header>
+<div class="formulario">
+    <form action="https://formspree.io/f/xdobwvgn" method="post">
+        <div class="inputs"><label for="">Nombre de la mascota</label><input type="text" name="nombre" id="nombre" placeholder="Ingrese nombre de su mascota"></div>
+        
+        <div class="inputs">
+            <label for="">Edad</label>
+            <input type="number" name="edad" id="edad" placeholder="Ingrese edad de su mascota">
+        </div>
+        <div class="inputs">
+            <label for="">Color</label>
+            <input type="color" name="color" id="color" placeholder="Ingrese color de su mascota">
+        </div>
+        
+        <div class="inputs"><label for="">e-mail</label>
+            <input type="email" name="email" id="email" placeholder="Ingrese email"></div>
+        
+        <div class="inputs"><label for="">Contraseña</label>
+            <input type="password" name="contraseña" id="contraseña" placeholder="Ingrese una constraseña"></div>
+            <div>
+                <label for=""></label> <textarea name="preguntas" id="preguntas" cols="30" rows="10" placeholder="Escribenos y te responderemos a la brevedad"></textarea>
+             </div>
+        <div class="check"><label for="checkbox">Acepto terminos y condiciones: </label>
+        <input id="checkbox" name="mailing" type="checkbox" value="consent"></div>
+             
+            <input  type="submit" value="Enviar" class="boton">
+        
+    </form>
+    
+</div>
+    
+</body>
+</html>
